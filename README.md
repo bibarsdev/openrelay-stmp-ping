@@ -1,7 +1,7 @@
 # Summary
 Some project I made for a client as a freelancer. It pings OpenRelay STMP servers.
 
-# How to build:
+# How to build
 **Note:** This project only supports Windows for now. Any commit that contributes to adding multi-platfrom support would be appreciated.
 
 1.Check out the source code:
@@ -24,7 +24,7 @@ cmake -GNinja /path/to/source
 ninja
 ```
 
-# How to use:
+# How to use
 Run "ping-smtp" with a list of subdomains or ip addresses as arguments:
 ```sh
 ping-stmp smtp.gmail.com www.youtube.com ...
@@ -34,8 +34,8 @@ Specify 'print' to print sent and received packets:
 ping-stmp print smtp.gmail.com www.youtube.com ...
 ```
 
-# How does it work:
+# How does it work
 First it sends a 'HELO' packet to the server, if it replies that means it is an SMTP server. Then it tries to send an email, if the server doesn't proceed then it is not openrelay. However, If it does proceed, that means it is an openrelay SMTP server.
 
-# TODO:
+# TODO
 - Add multi-platform support.
