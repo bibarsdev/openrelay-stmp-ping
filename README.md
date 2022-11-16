@@ -6,7 +6,7 @@ Some project I made for a client as a freelancer. It pings OpenRelay STMP server
 
 1.Check out the source code:
 ```sh
-git clone https://github.com/google/shaderc /path/to/source
+git clone https://github.com/bibarsdev/openrelay-stmp-ping.git /path/to/source
 cd /path/to/source
 ```
 2.Create the output directory, then change into it:
