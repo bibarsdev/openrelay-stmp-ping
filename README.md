@@ -2,7 +2,7 @@
 A program that pings OpenRelay STMP servers.
 
 # How to build
-**Note:** This project only supports Windows for now. Any commit that contributes to adding multi-platfrom support would be appreciated.
+**Note:** Currently, This project only supports Windows. Any commit that contributes to adding multi-platfrom support would be appreciated.
 
 1.Check out the source code:
 ```sh
