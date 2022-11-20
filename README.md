@@ -35,7 +35,7 @@ ping-stmp print smtp.gmail.com www.youtube.com ...
 ```
 
 # How does it work
-First it sends a 'HELO' packet to the server, if it replies that means it is an SMTP server. Then it tries to send an email, if the server doesn't proceed then it is not openrelay. However, If it does proceed, that means it is an openrelay SMTP server.
+First it sends a 'HELO' packet to the server, if it replies that means it is an SMTP server. Then, it tries to send an email, if the server doesn't proceed then it is not openrelay. However, If it does proceed, that means it is an openrelay SMTP server.
 
 # TODO
 - Add multi-platform support.
